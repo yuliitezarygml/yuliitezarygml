@@ -1,6 +1,16 @@
 {
   "packages": [
     {
+      "appName": "ReVanced Manager",
+         "androidPackageName": "com.revanced.net.revancedmanager",
+         "latestVersionCode": "2.0.11",
+         "appShortDescription": "ReVanced Manager is an all-in-one solution for downloading, installing, and managing ReVanced apps and other modded APKs, offering a safe, reliable, and user-friendly experience.",
+         "requireMicroG": false,
+        "latestVersionUrl": "https://github.com/vancedapps/vanced.net/releases/download/2025-10/revanced.net_revanced_manager_v2.0.11.apk",
+        "icon": "https://vanced.to/assets/img/apps/thumbs/com.revanced.net.revancedmanager.64.webp",
+       "index": 0
+    },
+    {
       "appName": "Instagram",
       "androidPackageName": "com.instagram.android",
       "latestVersionCode": "359.0.0.59.89",
@@ -18,7 +28,7 @@
       "requireMicroG": false,
       "latestVersionUrl": "https://github.com/yuliitezarygml/rv-manager/releases/download/app/MN-TikTok.Pro_39.5.3.apk",
       "icon": "https://raw.githubusercontent.com/yuliitezarygml/yuliitezarygml/refs/heads/main/Tiktok.webp",
-      "index": 1
+      "index": 2
     }
   ]
 }
