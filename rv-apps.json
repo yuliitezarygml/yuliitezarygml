@@ -12,7 +12,7 @@
     },
      {
       "appName": "TikTok",
-      "androidPackageName": "com.ss.android.ugs.trill",
+      "androidPackageName": "com.ss.android.ugc.trill",
       "latestVersionCode": "39.5.3",
       "appShortDescription": "MN-TikTok: Record livestreams without restrictions, no ads, download videos without watermarks, enhanced graphics and audio, dark/light modes, bypass regional blocks.",
       "requireMicroG": false,
