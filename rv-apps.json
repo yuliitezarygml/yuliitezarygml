@@ -1,16 +1,6 @@
 {
   "packages": [
     {
-      "appName": "GMLK Manager",
-         "androidPackageName": "com.gmlk.rvmanager",
-         "latestVersionCode": "3.0.14",
-         "appShortDescription": "GMLK Manager is an all-in-one solution for downloading, installing, and managing ReVanced apps and other modded APKs, offering a safe, reliable, and user-friendly experience.",
-         "requireMicroG": false,
-        "latestVersionUrl": "https://github.com/yuliitezarygml/rv-manager/releases/download/app/yuliitezary_gmlk_manager_v3.0.15.apk",
-        "icon": "https://vanced.to/assets/img/apps/thumbs/com.revanced.net.revancedmanager.64.webp",
-       "index": 0
-    },
-    {
       "appName": "Instagram",
       "androidPackageName": "com.instagram.android",
       "latestVersionCode": "359.0.0.59.89",
