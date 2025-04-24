@@ -44,7 +44,7 @@
         "appName": "MicroG",
         "androidPackageName": "app.revanced.android.gms",
         "latestVersionCode": "0.3.1.4.240913",
-        "appShortDescription": "Manage your Proxmox Backup Servers.",
+        "appShortDescription": "MicroG is an open-source alternative to Google Play Services, enabling apps designed for Google services to run on platforms where these services are unavailable.",
         "requireMicroG": false,
         "latestVersionUrl": "https://github.com/vancedapps/vanced.net/releases/download/2025-3/vanced.net_vanced_gms_microg_v0.3.1.4.240913.apk",
         "icon": "https://vanced.to/assets/img/apps/thumbs/app.revanced.android.gms.64.webp",
