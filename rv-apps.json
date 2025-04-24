@@ -29,6 +29,26 @@
         "latestVersionUrl": "https://github.com/yuliitezarygml/rv-manager/releases/download/app/MN-TikTok.Pro_39.5.3.apk",
         "icon": "https://raw.githubusercontent.com/yuliitezarygml/yuliitezarygml/refs/heads/main/Tiktok.webp",
         "index": 2
+      },
+      {
+        "appName": "YouTube ReVanced",
+        "androidPackageName": "app.revanced.android.youtube",
+        "latestVersionCode": "20.12.46",
+        "appShortDescription": "YouTube ReVanced is a free, open-source modification of the official YouTube app, offering ad-free viewing and numerous additional features.",
+        "requireMicroG": true,
+        "latestVersionUrl": "https://github.com/vancedapps/vanced.net/releases/download/2025-17/vanced.net_vanced_youtube_v20.12.46_cli5.0.2.1_p5.21.0.9.apk",
+        "icon": "https://vanced.to/assets/img/apps/thumbs/app.revanced.android.youtube.64.webp",
+        "index": 3
+      },
+      {
+        "appName": "MicroG",
+        "androidPackageName": "app.revanced.android.gms",
+        "latestVersionCode": "0.3.1.4.240913",
+        "appShortDescription": "MicroG is an open-source alternative to Google Play Services, enabling apps designed for Google services to run on platforms where these services are unavailable.",
+        "requireMicroG": false,
+        "latestVersionUrl": "https://github.com/vancedapps/vanced.net/releases/download/2025-3/vanced.net_vanced_gms_microg_v0.3.1.4.240913.apk",
+        "icon": "https://vanced.to/assets/img/apps/thumbs/app.revanced.android.gms.64.webp",
+        "index": 4
       }
     ]
   }
