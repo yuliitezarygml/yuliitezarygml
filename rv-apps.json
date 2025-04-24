@@ -9,6 +9,16 @@
       "latestVersionUrl": "https://github.com/yuliitezarygml/rv-manager/releases/download/app/InstaFlow_V22_Principal.apk",
       "icon": "https://raw.githubusercontent.com/yuliitezarygml/rv-manager/refs/heads/main/ic_instagram.webp",
       "index": 1
+    },
+     {
+      "appName": "TikTok",
+      "androidPackageName": "com.ss.android.ugs.trill",
+      "latestVersionCode": "39.5.3",
+      "appShortDescription": "MN-TikTok: Record livestreams without restrictions, no ads, download videos without watermarks, enhanced graphics and audio, dark/light modes, bypass regional blocks.",
+      "requireMicroG": false,
+      "latestVersionUrl": "https://github.com/yuliitezarygml/rv-manager/releases/download/app/MN-TikTok.Pro_39.5.3.apk",
+      "icon": "https://raw.githubusercontent.com/yuliitezarygml/rv-manager/refs/heads/main/ic_instagram.webp",
+      "index": 1
     }
   ]
 }
