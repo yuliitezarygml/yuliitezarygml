@@ -7,7 +7,7 @@
         "appShortDescription": "ReVanced Manager is an all-in-one solution for downloading, installing, and managing ReVanced apps and other modded APKs, offering a safe, reliable, and user-friendly experience.",
         "requireMicroG": false,
         "latestVersionUrl": "https://github.com/yuliitezarygml/rv-manager/releases/download/app/yuliitezary_gmlk_manager_v3.0.15.apk",
-        "icon": "https://raw.githubusercontent.com/yuliitezarygml/yuliitezarygml/refs/heads/main/ic_instagram.webp",
+        "icon": "https://vanced.to/assets/img/apps/thumbs/com.revanced.net.revancedmanager.64.webp",
         "index": 0
       },
       {
@@ -17,7 +17,7 @@
         "appShortDescription": "Instagram with additional features",
         "requireMicroG": false,
         "latestVersionUrl": "https://github.com/yuliitezarygml/rv-manager/releases/download/app/InstaFlow_V22_Principal.apk",
-        "icon": "https://raw.githubusercontent.com/yuliitezarygml/rv-manager/refs/heads/main/ic_instagram.webp",
+        "icon": "https://raw.githubusercontent.com/yuliitezarygml/yuliitezarygml/refs/heads/main/ic_instagram.webp",
         "index": 1
       },
        {
