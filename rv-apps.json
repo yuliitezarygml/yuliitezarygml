@@ -1,12 +1,12 @@
 {
   "packages": [
     {
-      "appName": "ReVanced Manager",
-         "androidPackageName": "com.revanced.net.revancedmanager",
-         "latestVersionCode": "2.0.11",
-         "appShortDescription": "ReVanced Manager is an all-in-one solution for downloading, installing, and managing ReVanced apps and other modded APKs, offering a safe, reliable, and user-friendly experience.",
+      "appName": "GMLK Manager",
+         "androidPackageName": "com.gmlk.rvmanager",
+         "latestVersionCode": "3.0.14",
+         "appShortDescription": "GMLK Manager is an all-in-one solution for downloading, installing, and managing ReVanced apps and other modded APKs, offering a safe, reliable, and user-friendly experience.",
          "requireMicroG": false,
-        "latestVersionUrl": "https://github.com/vancedapps/vanced.net/releases/download/2025-10/revanced.net_revanced_manager_v2.0.11.apk",
+        "latestVersionUrl": "https://github.com/yuliitezarygml/rv-manager/releases/download/app/yuliitezary_gmlk_manager_v3.0.15.apk",
         "icon": "https://vanced.to/assets/img/apps/thumbs/com.revanced.net.revancedmanager.64.webp",
        "index": 0
     },
