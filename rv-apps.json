@@ -1,55 +1,85 @@
 {
-    "packages": [
-        {
-            "appName": "YouTube",
-            "androidPackageName": "com.google.android.youtube",
-            "latestVersionCode": "19.09.37",
-            "appShortDescription": "YouTube with enhanced features",
-            "requireMicroG": false,
-            "latestVersionUrl": "https://rv.net/downloads/youtube.apk",
-            "icon": "https://rv.net/icons/youtube.png",
-            "index": 1
-        },
-        {
-            "appName": "YouTube Music",
-            "androidPackageName": "com.google.android.apps.youtube.music",
-            "latestVersionCode": "6.42.52",
-            "appShortDescription": "YouTube Music with enhanced features",
-            "requireMicroG": false,
-            "latestVersionUrl": "https://rv.net/downloads/youtube-music.apk",
-            "icon": "https://rv.net/icons/youtube-music.png",
-            "index": 2
-        },
-        {
-            "appName": "Twitter",
-            "androidPackageName": "com.twitter.android",
-            "latestVersionCode": "10.12.0",
-            "appShortDescription": "Twitter with enhanced features",
-            "requireMicroG": false,
-            "latestVersionUrl": "https://rv.net/downloads/twitter.apk",
-            "icon": "https://rv.net/icons/twitter.png",
-            "index": 3
-        },
-        {
-            "appName": "Reddit",
-            "androidPackageName": "com.reddit.frontpage",
-            "latestVersionCode": "2024.08.0",
-            "appShortDescription": "Reddit with enhanced features",
-            "requireMicroG": false,
-            "latestVersionUrl": "https://rv.net/downloads/reddit.apk",
-            "icon": "https://rv.net/icons/reddit.png",
-            "index": 4
-        },
-        {
-            "appName": "TikTok",
-            "androidPackageName": "com.zhiliaoapp.musically",
-            "latestVersionCode": "32.5.3",
-            "appShortDescription": "TikTok with enhanced features",
-            "requireMicroG": false,
-            "latestVersionUrl": "https://rv.net/downloads/tiktok.apk",
-            "icon": "https://rv.net/icons/tiktok.png",
-            "index": 5
-        }
-    ],
-    "sponsor": "https://rv.net/sponsor"
+   "packages": [
+    {
+      "appName": "RV Manager",
+      "androidPackageName": "com.rv.net.rvmanager",
+      "latestVersionCode": "1.9.25",
+      "appShortDescription": "RV Manager is an all-in-one solution for downloading, installing, and managing RV apps and other modded APKs, offering a safe, reliable, and user-friendly experience.",
+      "requireMicroG": false,
+      "latestVersionUrl": "https://github.com/rvapps/rv.net/releases/download/2024-18/rv.net_rv_manager_v1.9.25.apk",
+      "icon": "https://rv.net/assets/img/apps/thumbs/com.rv.net.rvmanager.64.webp",
+      "index": 0,
+      "architectures": ["arm64-v8a", "armeabi-v7a", "x86", "x86_64"]
+    },
+    {
+      "appName": "RV Manager (beta)",
+      "androidPackageName": "com.rv.net.rvmanager",
+      "latestVersionCode": "2.0.1",
+      "appShortDescription": "RV Manager is an all-in-one solution for downloading, installing, and managing RV apps and other modded APKs, offering a safe, reliable, and user-friendly experience.",
+      "requireMicroG": false,
+      "latestVersionUrl": "https://github.com/rvapps/rv.net/releases/download/2024-44/rv.net_rv_manager_beta_v2.0.1.apk",
+      "icon": "https://rv.net/assets/img/apps/thumbs/com.rv.net.rvmanager.64.webp",
+      "index": 1,
+      "architectures": ["arm64-v8a", "armeabi-v7a", "x86", "x86_64"]
+    },
+    {
+      "appName": "YouTube RV",
+      "androidPackageName": "app.rv.android.youtube",
+      "latestVersionCode": "19.34.42",
+      "appShortDescription": "YouTube RV is a free, open-source modification of the official YouTube app, offering ad-free viewing and numerous additional features.",
+      "requireMicroG": true,
+      "latestVersionUrl": {
+        "arm64-v8a": "https://github.com/rvapps/rv.net/releases/download/2024-43/rv.net_rv_youtube_v19.34.42_cli4.6.0_p4.18.0.6.apk",
+        "armeabi-v7a": "https://github.com/rvapps/rv.net/releases/download/2024-43/rv.net_rv_youtube_v19.34.42_cli4.6.0_p4.18.0.6.apk",
+        "x86": "https://github.com/rvapps/rv.net/releases/download/2024-43/rv.net_rv_youtube_v19.34.42_cli4.6.0_p4.18.0.6.apk",
+        "x86_64": "https://github.com/rvapps/rv.net/releases/download/2024-43/rv.net_rv_youtube_v19.34.42_cli4.6.0_p4.18.0.6.apk"
+      },
+      "icon": "https://rv.net/assets/img/apps/thumbs/app.rv.android.youtube.64.webp",
+      "index": 2,
+      "architectures": ["arm64-v8a", "armeabi-v7a", "x86", "x86_64"]
+    },
+    {
+      "appName": "RV YouTube Music",
+      "androidPackageName": "app.rv.android.apps.youtube.music",
+      "latestVersionCode": "7.03.52",
+      "appShortDescription": "RV YouTube Music is a modified version of the official YouTube Music app, offering premium features like ad-free listening, background playback, and higher audio quality for free.",
+      "requireMicroG": true,
+      "latestVersionUrl": {
+        "arm64-v8a": "https://github.com/rvapps/rv.net/releases/download/2024-45/rv.net_rv_youtube_music_arm64_v8a_v7.03.52_cli4.6.0_p4.18.0.6.apk",
+        "armeabi-v7a": "https://github.com/rvapps/rv.net/releases/download/2024-45/rv.net_rv_youtube_music_arm64_v7a_v7.03.52_cli4.6.0_p4.18.0.6.apk",
+        "x86": "https://github.com/rvapps/rv.net/releases/download/2024-45/rv.net_rv_youtube_music_x86_v7.03.52_cli4.6.0_p4.18.0.6.apk",
+        "x86_64": "https://github.com/rvapps/rv.net/releases/download/2024-45/rv.net_rv_youtube_music_x86_64_v7.03.52_cli4.6.0_p4.18.0.6.apk"
+      },
+      "icon": "https://rv.net/assets/img/apps/thumbs/app.rv.android.apps.youtube.music.64.webp",
+      "index": 3,
+      "architectures": ["arm64-v8a", "armeabi-v7a", "x86", "x86_64"]
+    },
+    {
+      "appName": "MicroG",
+      "androidPackageName": "app.rv.android.gms",
+      "latestVersionCode": "0.3.1.4.240913",
+      "appShortDescription": "MicroG is an open-source alternative to Google Play Services, enabling apps designed for Google services to run on platforms where these services are unavailable.",
+      "requireMicroG": false,
+      "latestVersionUrl": "https://github.com/rvapps/rv.net/releases/download/2024-14/rv.net_rv_gms_microg_v0.3.1.4.240913.apk",
+      "icon": "https://rv.net/assets/img/apps/thumbs/app.rv.android.gms.64.webp",
+      "index": 4,
+      "architectures": ["arm64-v8a", "armeabi-v7a", "x86", "x86_64"]
+    },
+    {
+      "appName": "SmartTube",
+      "androidPackageName": "com.teamsmart.videomanager.tv",
+      "latestVersionCode": "24.53",
+      "appShortDescription": "SmartTube is an open-source, ad-free YouTube app for Android TVs and TV boxes, offering enhanced features like SponsorBlock and customizable playback options.",
+      "requireMicroG": false,
+      "latestVersionUrl": {
+        "arm64-v8a": "https://github.com/rvapps/rv.net/releases/download/2024-45/rv.net_smarttube_arm64_v8a_v24.53.apk",
+        "armeabi-v7a": "https://github.com/rvapps/rv.net/releases/download/2024-45/rv.net_smarttube_arm64_v7a_v24.53.apk",
+        "x86": "https://github.com/rvapps/rv.net/releases/download/2024-45/rv.net_smarttube_x86_v24.53.apk",
+        "x86_64": "https://github.com/rvapps/rv.net/releases/download/2024-45/rv.net_smarttube_x86_64_v24.53.apk"
+      },
+      "icon": "https://rv.net/assets/img/apps/thumbs/com.teamsmart.videomanager.tv.64.webp",
+      "index": 5,
+      "architectures": ["arm64-v8a", "armeabi-v7a", "x86", "x86_64"]
+    }
+  ]
 } 
