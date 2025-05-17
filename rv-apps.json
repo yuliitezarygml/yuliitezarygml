@@ -7,8 +7,108 @@
       "appShortDescription": "Instagram with additional features",
       "requireMicroG": false,
       "latestVersionUrl": "https://github.com/yuliitezarygml/rv-manager/releases/download/app/InstaFlow_V22_Principal.apk",
-      "icon": "https://raw.githubusercontent.com/yuliitezarygml/yuliitezarygml/refs/heads/main/ic_instagram.svg",
+      "icon": "https://raw.githubusercontent.com/yuliitezarygml/yuliitezarygml/refs/heads/main/ic_instagram.webp",
+      "index": 0
+    },
+    {
+      "appName": "TikTok",
+      "androidPackageName": "com.ss.android.ugc.trill",
+      "latestVersionCode": "39.8.16",
+      "appShortDescription": "tiktok mod ",
+      "requireMicroG": false,
+      "latestVersionUrl": "https://github.com/yuliitezarygml/yuliitezarygml/releases/download/app/MN-TikTok.Pro.39.8.16.apk",
+      "icon": "https://raw.githubusercontent.com/yuliitezarygml/yuliitezarygml/refs/heads/main/Tiktok.webp",
       "index": 1
-    }
+    },
+    {
+      "appName": "Instagram clone ",
+      "androidPackageName": "https://com.instaflow.android",
+      "latestVersionCode": "367.0.0.43.89",
+      "appShortDescription": "Instagram with additional features",
+      "requireMicroG": false,
+      "latestVersionUrl": "https://github.com/yuliitezarygml/yuliitezarygml/releases/download/app/InstaFlow_V23_Clone.apk",
+      "icon": "https://raw.githubusercontent.com/yuliitezarygml/yuliitezarygml/refs/heads/main/ic_instagram.webp",
+      "index": 2
+    },
+    {
+      "appName": "YouTube ReVanced",
+      "androidPackageName": "app.revanced.android.youtube",
+      "latestVersionCode": "20.12.46",
+      "appShortDescription": "YouTube ReVanced is a free, open-source modification of the official YouTube app, offering ad-free viewing and numerous additional features.",
+      "requireMicroG": true,
+      "latestVersionUrl": "https://github.com/vancedapps/vanced.net/releases/download/2025-19/vanced.net_vanced_youtube_v20.12.46_cli5.0.2.2_p5.23.0.7.apk",
+      "icon": "https://vanced.to/assets/img/apps/thumbs/app.revanced.android.youtube.64.webp",
+      "index": 3
+    },
+    {
+      "appName": "MicroG",
+      "androidPackageName": "app.revanced.android.gms",
+      "latestVersionCode": "0.3.1.4.240913",
+      "appShortDescription": "MicroG is an open-source alternative to Google Play Services, enabling apps designed for Google services to run on platforms where these services are unavailable.",
+      "requireMicroG": false,
+      "latestVersionUrl": "https://github.com/vancedapps/vanced.net/releases/download/2025-3/vanced.net_vanced_gms_microg_v0.3.1.4.240913.apk",
+      "icon": "https://vanced.to/assets/img/apps/thumbs/app.revanced.android.gms.64.webp",
+      "index": 4
+    },
+    {
+      "appName": "ReVanced CandyLink VPN",
+      "androidPackageName": "com.candylink.openvpn",
+      "latestVersionCode": "3.3.1",
+      "appShortDescription": "ReVanced CandyLink VPN is a secure and anonymous internet access app with 50+ global servers, unlimited speed, and stealth mode to bypass censorship.",
+      "requireMicroG": false,
+      "latestVersionUrl": "https://github.com/vancedapps/vanced.net/releases/download/2024-18/vanced.net_vanced_candylink_vpn_v3.3.1_cli4.6.0_p4.8.0.10.apk",
+      "icon": "https://vanced.to/assets/img/apps/thumbs/com.candylink.openvpn.64.webp",
+      "index": 5
+    },
+    {
+      "appName": "ReVanced Icon Pack Studio",
+      "androidPackageName": "ginlemon.iconpackstudio",
+      "latestVersionCode": "2.2",
+      "appShortDescription": "ReVanced Icon Pack Studio is a modified app that allows users to create, edit, and share custom icon packs for Android devices with premium features unlocked.",
+      "requireMicroG": false,
+      "latestVersionUrl": "https://github.com/vancedapps/vanced.net/releases/download/2023-51/vanced.net_vanced_icon_pack_studio_v2.2.build.016_cli4.3.0_p3.1.0.apk",
+      "icon": "https://vanced.to/assets/img/apps/thumbs/ginlemon.iconpackstudio.64.webp",
+      "index": 6
+    },
+    {
+      "appName": "ReVanced Lightroom",
+      "androidPackageName": "com.adobe.lrmobile",
+      "latestVersionCode": "10.0.2",
+      "appShortDescription": "ReVanced Lightroom is a modified version of Adobe Lightroom that unlocks all premium features for free, including advanced editing tools, presets, and export options.",
+      "requireMicroG": false,
+      "latestVersionUrl": "https://github.com/vancedapps/vanced.net/releases/download/2025-19/vanced.net_vanced_lightroom_v10.0.2_cli5.0.2.2_p5.23.0.3.apk",
+      "icon": "https://vanced.to/assets/img/apps/thumbs/com.adobe.lrmobile.64.webp",
+      "index": 7
+    },
+    {
+      "appName": "ReVanced Meme Generator",
+      "androidPackageName": "com.zombodroid.memegenerator",
+      "latestVersionCode": "4.6377",
+      "appShortDescription": "ReVanced Meme Generator is a modified app that allows users to create, edit, and share memes with premium features unlocked and ads removed.",
+      "requireMicroG": false,
+      "latestVersionUrl": "https://github.com/vancedapps/vanced.net/releases/download/2024-13/vanced.net_vanced_meme_generator_v4.6377_cli4.6.0.1_p4.5.0.1.apk",
+      "icon": "https://vanced.to/assets/img/apps/thumbs/com.zombodroid.memegenerator.64.webp",
+      "index": 8
+    },
+    {
+      "appName": "ReVanced Twitch",
+      "androidPackageName": "tv.twitch.android.app",
+      "latestVersionCode": "16.9.1",
+      "appShortDescription": "ReVanced Twitch: Enhanced Twitch app with ad-blocking, automatic Channel Point claiming, and additional features for an improved streaming experience.",
+      "requireMicroG": false,
+      "latestVersionUrl": "https://github.com/vancedapps/vanced.net/releases/download/2024-12/vanced.net_vanced_twitch_v16.9.1_cli4.6.0.1_p4.4.0.9.apk",
+      "icon": "https://vanced.to/assets/img/apps/thumbs/tv.twitch.android.app.64.webp",
+      "index": 9
+    },
+    {
+      "appName": "ReVanced Spotify",
+      "androidPackageName": "com.spotify.music",
+      "latestVersionCode": "9.0.42.529",
+      "appShortDescription": "ReVanced Spotify is a modified version of the official Spotify app that removes ads and adds visual customization options for an enhanced music streaming experience.",
+      "requireMicroG": false,
+      "latestVersionUrl": "https://github.com/vancedapps/vanced.net/releases/download/2025-20/vanced.net_vanced_spotify_v9.0.42.529_cli5.0.1_p3.8.1.1.apk",
+      "icon": "https://vanced.to/assets/img/apps/thumbs/com.spotify.music.64.webp",
+      "index": 10
+    },
   ]
 }
