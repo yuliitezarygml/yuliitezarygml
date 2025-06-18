@@ -16,8 +16,7 @@
 - 💻 Разрабатываю скрипты, веб-панели, Telegram-боты
 - 🧰 Ориентируюсь в DevOps и системном администрировании
 - 🔐 Люблю Unix-подобные системы и серверную сторону
-- 📨 Telegram: [@your_username](https://t.me/your_username)
-- 📧 Email: [your_email@example.com](mailto:yuliitezary@gmail.com)
+- 📧 Email: [yuliitezary@gmail.com](mailto:yuliitezary@gmail.com)
 
 ---
 
@@ -59,5 +58,5 @@
 
 ## 💬 Связаться со мной
 
-- Telegram: [@your_username](https://t.me/your_username)
-- Email: [your_email@example.com](mailto:your_email@example.com)
+
+📧 Email: [yuliitezary@gmail.com](mailto:yuliitezary@gmail.com)
