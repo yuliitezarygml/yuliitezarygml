@@ -1,110 +1,63 @@
-Вот содержимое файла `README_FTP_ROOT_SETUP.md`, которое описывает пошаговую настройку FTP-доступа для пользователя `root` с использованием `vsftpd`:
+<h1 align="center">Привет, я GMLK 👋</h1>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?center=true&vCenter=true&width=500&lines=Разработчик+C%2B%2B,+Python,+Shell,+HTML;Люблю+автоматизацию+и+серверную+инженерию;Добро+пожаловать+в+мой+мир+кода!" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Разработчик-C++%20%7C%20Python%20%7C%20Shell-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/Расположение-Молдова-lightgrey?style=flat-square" />
+</p>
 
 ---
 
-````markdown
-# Настройка FTP-доступа для пользователя root (vsftpd)
+## 🧠 Обо мне
 
-⚠️ **Предупреждение по безопасности**  
-Разрешение доступа root по FTP — крайне опасная практика. Используйте **только в изолированной и контролируемой среде**, предпочтительно заменив root на обычного пользователя.
-
----
-
-## Шаг 1: Установите vsftpd (если не установлен)
-
-```bash
-sudo apt update
-sudo apt install vsftpd
-````
+- 💻 Разрабатываю скрипты, веб-панели, Telegram-боты
+- 🧰 Ориентируюсь в DevOps и системном администрировании
+- 🔐 Люблю Unix-подобные системы и серверную сторону
+- 📨 Telegram: [@your_username](https://t.me/your_username)
+- 📧 Email: [your_email@example.com](mailto:yuliitezary@gmail.com)
 
 ---
 
-## Шаг 2: Отредактируйте файл конфигурации
+## 🚀 Основные проекты
 
-Откройте конфигурационный файл:
-
-```bash
-sudo nano /etc/vsftpd.conf
-```
-
-Измените или добавьте следующие строки:
-
-```ini
-local_enable=YES
-write_enable=YES
-
-userlist_enable=YES
-userlist_file=/etc/vsftpd.userlist
-userlist_deny=NO
-```
+| Название | Описание |
+|----------|----------|
+| [🧳 Portofolio](https://github.com/GMLK-DEVELOPER/portofolio) | Личный сайт-портфолио на Python |
+| [🖥 ProxmoxVE-script](https://github.com/GMLK-DEVELOPER/ProxmoxVE-script) | Скрипты автоматизации Proxmox |
+| [🤖 adminpanel-telegrambot](https://github.com/GMLK-DEVELOPER/adminpanel-telegrambot) | Веб-панель для Telegram-ботов |
+| [📚 web-invatamint](https://github.com/GMLK-DEVELOPER/web-invatamint) | HTML-сайт для учебных целей |
 
 ---
 
-## Шаг 3: Добавьте пользователя root в список разрешённых
+## 📊 Статистика
 
-```bash
-echo "root" | sudo tee -a /etc/vsftpd.userlist
-```
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=yuliitezarygml&show_icons=true&hide=prs&count_private=true&theme=tokyonight" alt="GitHub Stats" />
+</p>
 
----
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=GMLK-DEVELOPER&theme=tokyonight" alt="GitHub Streak" />
 
-## Шаг 4: Удалите блокировку для root
-
-Откройте и отредактируйте файл:
-
-```bash
-sudo nano /etc/ftpusers
-```
-
-Удалите или закомментируйте строку:
-
-```
-root
-```
-
-Аналогично для:
-
-```bash
-sudo nano /etc/vsftpd.user_list
-```
+</p>
 
 ---
 
-## Шаг 5: Перезапустите FTP-сервер
+## 🛠️ Навыки и технологии
 
-```bash
-sudo systemctl restart vsftpd
-```
-
----
-
-## Шаг 6: Подключение по FTP
-
-Используйте любой FTP-клиент (например, FileZilla) или консоль:
-
-```bash
-ftp your-server-ip
-```
+<p align="center">
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen" />
+  <img src="https://img.shields.io/badge/Shell-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+</p>
 
 ---
 
-## 🔐 Альтернатива: SFTP-доступ
+## 💬 Связаться со мной
 
-SFTP работает по умолчанию через SSH, безопаснее и не требует дополнительных настроек:
-
-```bash
-sftp root@your-server-ip
-```
-
----
-
-## Заключение
-
-Настройка FTP-доступа для `root` возможна, но **настоятельно рекомендуется использовать SFTP** или обычного пользователя с нужными правами для безопасности.
-
-```
-
----
-
-Хочешь, я сразу создам этот файл и отдам его тебе?
-```
+- Telegram: [@your_username](https://t.me/your_username)
+- Email: [your_email@example.com](mailto:your_email@example.com)
