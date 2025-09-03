@@ -61,7 +61,10 @@
 
 📧 Email: [yuliitezary@gmail.com](mailto:yuliitezary@gmail.com)
 
-activation windows 
+activation windows
+<br>
 open powershell to amin 
+<br>
 pase link 
+<br>
 irm https://get.activated.win | iex
