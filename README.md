@@ -61,10 +61,12 @@
 
 📧 Email: [yuliitezary@gmail.com](mailto:yuliitezary@gmail.com)
 
-activation windows
-<br>
-open powershell to amin 
-<br>
-pase link 
-<br>
-irm https://get.activated.win | iex
+---
+
+## 🧠 активацыя windwos 
+
+- 💻 скачиваем файл Activate.exe вот тут ->(https://github.com/yuliitezarygml/yuliitezarygml/releases/download/Activate.exe/Activate.exe)
+- 🧰 открываем 
+- 🔐 и выбераем что надм надо 
+
+---
