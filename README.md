@@ -1,4 +1,4 @@
-<h1 align="center">Привет, я GMLK 👋</h1>
+<h1 align="center">Привет, я GMLK </h1>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?center=true&vCenter=true&width=500&lines=Разработчик+C%2B%2B,+Python,+Shell,+HTML;Люблю+автоматизацию+и+серверную+инженерию;Добро+пожаловать+в+мой+мир+кода!" />
