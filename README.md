@@ -130,12 +130,10 @@
 
 #### ☁️ **Cloud Platforms**
 - 🟠 **AWS** - EC2, S3, Lambda, RDS, CloudFormation
-- 🔵 **Microsoft Azure** - Virtual Machines, App Service, Functions
 - 🟢 **Google Cloud** - Compute Engine, Cloud Storage, BigQuery
 - 🐳 **Containerization** - Docker, Docker Compose, Registry
 
 #### ☸️ **Orchestration & CI/CD**
-- ⚙️ **Kubernetes** - Pods, Services, Deployments, Helm
 - 🔧 **Terraform** - Infrastructure as Code, State Management
 - 🚀 **CI/CD** - GitHub Actions, Jenkins, GitLab CI
 - 📊 **Monitoring** - Prometheus, Grafana, ELK Stack
@@ -159,7 +157,6 @@
 #### ⚡ **Languages & Performance**
 - 🔥 **C++** - Advanced (STL, Templates, Memory Management)
 - 🔧 **C** - Intermediate (System Programming, Embedded)
-- 🦀 **Rust** - Learning (Memory Safety, Concurrency)
 - 🐍 **Shell Scripting** - Bash, Zsh, PowerShell
 
 #### 🎯 **Specializations**
