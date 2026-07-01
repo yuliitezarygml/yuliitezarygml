@@ -10,6 +10,7 @@
   <a href="mailto:yuliitezary@gmail.com"><img src="https://img.shields.io/badge/Email-yuliitezary%40gmail.com-2DD4BF?style=for-the-badge&logo=gmail&logoColor=0D1117&labelColor=0D1117" alt="Email" /></a>
   <img src="https://img.shields.io/badge/Location-Moldova-2DD4BF?style=for-the-badge&logo=google-maps&logoColor=0D1117&labelColor=0D1117" alt="Location" />
   <a href="https://github.com/yuliitezarygml?tab=followers"><img src="https://img.shields.io/github/followers/yuliitezarygml?style=for-the-badge&logo=github&logoColor=2DD4BF&labelColor=0D1117&color=2DD4BF&label=Followers" alt="Followers" /></a>
+  <img src="https://komarev.com/ghpvc/?username=yuliitezarygml&color=2dd4bf&style=for-the-badge&abbreviated=true&label=Profile+Views" alt="Profile Views" />
 </div>
 
 <br/>
@@ -78,12 +79,37 @@
 ## 📊 GitHub Stats · Статистика
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yuliitezarygml&show_icons=true&count_private=true&hide_border=true&title_color=2DD4BF&text_color=C9D1D9&icon_color=2DD4BF&bg_color=0D1117&border_color=30363D" alt="GitHub Stats" width="48%" />
-  <img src="https://streak-stats.demolab.com/?user=yuliitezarygml&background=0D1117&ring=2DD4BF&fire=2DD4BF&currStreakLabel=2DD4BF&sideLabels=C9D1D9&currStreakNum=E6F7F5&sideNums=C9D1D9&dates=8B949E&stroke=30363D&hide_border=true" alt="GitHub Streak" width="48%" />
+  <img src="https://streak-stats.demolab.com/?user=yuliitezarygml&background=0D1117&ring=2DD4BF&fire=2DD4BF&currStreakLabel=2DD4BF&sideLabels=C9D1D9&currStreakNum=E6F7F5&sideNums=C9D1D9&dates=8B949E&stroke=30363D&hide_border=true" alt="GitHub Streak" width="49%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=yuliitezarygml&theme=github_dark" alt="GitHub Stats" width="49%" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yuliitezarygml&layout=compact&hide_border=true&title_color=2DD4BF&text_color=C9D1D9&bg_color=0D1117&border_color=30363D" alt="Top Languages" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yuliitezarygml&theme=github_dark" alt="Repos by Language" width="32%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yuliitezarygml&theme=github_dark" alt="Most Commit Language" width="32%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=yuliitezarygml&theme=github_dark&utcOffset=3" alt="Productive Time" width="32%" />
+</div>
+
+---
+
+## 📈 Activity Graph · График активности
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yuliitezarygml&bg_color=0d1117&color=2dd4bf&line=2dd4bf&point=ffffff&area=true&area_color=2dd4bf&hide_border=true&radius=5&custom_title=Contribution+Activity" alt="Activity Graph" width="98%" />
+</div>
+
+---
+
+## 🎯 Current Focus · Чем сейчас занимаюсь
+
+<div align="center">
+
+| Area · Направление | Status · Статус |
+|---|---|
+| 🤖 Telegram bot platform (multi-tenant) | 🔨 In progress · В работе |
+| 🖥️ Proxmox VE automation scripts | 🔨 In progress · В работе |
+| 🐳 Docker-first deployment workflows | 📖 Learning · Изучаю |
+| ☁️ Self-hosted infrastructure (Linux) | ✅ Active · Активно использую |
+
 </div>
 
 ---
