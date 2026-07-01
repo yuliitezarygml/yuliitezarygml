@@ -76,6 +76,14 @@
 
 ---
 
+## 🏆 Trophies · Достижения
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=yuliitezarygml&theme=tokyonight&no-bg=true&no-frame=true&column=7&margin-w=8&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" alt="GitHub Trophies" />
+</div>
+
+---
+
 ## 📊 GitHub Stats · Статистика
 
 <div align="center">
@@ -95,6 +103,18 @@
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=yuliitezarygml&bg_color=0d1117&color=2dd4bf&line=2dd4bf&point=ffffff&area=true&area_color=2dd4bf&hide_border=true&radius=5&custom_title=Contribution+Activity" alt="Activity Graph" width="98%" />
+</div>
+
+---
+
+## 🐍 Contribution Snake · Активность
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuliitezarygml/yuliitezarygml/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuliitezarygml/yuliitezarygml/output/github-contribution-grid-snake.svg" />
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/yuliitezarygml/yuliitezarygml/output/github-contribution-grid-snake-dark.svg" width="100%" />
+  </picture>
 </div>
 
 ---
