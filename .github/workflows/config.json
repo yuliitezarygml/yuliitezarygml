@@ -1,0 +1,28 @@
+{
+  "api": [
+    "http://192.168.50.51"
+  ],
+  "website": "http://192.168.50.51",
+  "support": {
+    "telegram": "https://t.me/swacloud",
+    "telegram_premium": "",
+    "telegram_reseller": ""
+  },
+  "github": {
+    "app": "https://github.com/yuliitezarygml/swa",
+    "org": "https://github.com/yuliitezarygml",
+    "legal": "http://192.168.50.51/legal",
+    "legal_repo": "https://github.com/yuliitezarygml/swa/tree/main/SWACloud/docs/SWACloud-Legal"
+  },
+  "downloads": {
+    "version": "",
+    "setup": {
+      "url": "",
+      "active": false
+    },
+    "portable": {
+      "url": "",
+      "active": false
+    }
+  }
+}
