@@ -1,8 +1,8 @@
 {
   "api": [
-    "http://192.168.50.51"
+    "http://89.149.118.186:8080"
   ],
-  "website": "http://192.168.50.51",
+  "website": "http://89.149.118.186:8080",
   "support": {
     "telegram": "https://t.me/swacloud",
     "telegram_premium": "",
@@ -11,7 +11,7 @@
   "github": {
     "app": "https://github.com/yuliitezarygml/swa",
     "org": "https://github.com/yuliitezarygml",
-    "legal": "http://192.168.50.51/legal",
+    "legal": "http://89.149.118.186:8080/legal",
     "legal_repo": "https://github.com/yuliitezarygml/swa/tree/main/SWACloud/docs/SWACloud-Legal"
   },
   "downloads": {
