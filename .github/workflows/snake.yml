@@ -1,36 +1,163 @@
-name: 🐍 Snake Animation
+# Install as .github/workflows/snake.yml, replacing the previous snake workflow.
+# Public data only: no personal access token or Vercel deployment is needed.
+name: Update profile assets
 
 on:
-  # Запускается каждый день в 06:00 UTC · Runs every day at 06:00 UTC
   schedule:
-    - cron: "0 6 * * *"
-  # Можно запустить вручную из Actions · Can be triggered manually
+    - cron: '17 */12 * * *'
   workflow_dispatch:
-  # Или при каждом push в main · Or on every push to main
   push:
-    branches:
-      - main
+    branches: [main]
+
+permissions: {}
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: false
 
 jobs:
   generate:
-    name: Generate snake SVG
+    if: github.repository == 'yuliitezarygml/yuliitezarygml'
     runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+    steps:
+      - name: Check out profile repository without persisted credentials
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
+
+      - name: Generate dark public stats
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
+        with:
+          card: stats
+          options: username=yuliitezarygml&show_icons=true&hide_rank=true&hide_border=true&title_color=22D3EE&icon_color=A78BFA&text_color=94A3B8&bg_color=0A101F&card_width=500
+          path: dist/stats-dark.svg
+          token: ${{ github.token }}
+          core_version: '2.1.3'
+          fail_on_error: 'true'
+
+      - name: Generate light public stats
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
+        with:
+          card: stats
+          options: username=yuliitezarygml&show_icons=true&hide_rank=true&hide_border=true&title_color=0891B2&icon_color=7C3AED&text_color=475569&bg_color=F8FAFC&card_width=500
+          path: dist/stats-light.svg
+          token: ${{ github.token }}
+          core_version: '2.1.3'
+          fail_on_error: 'true'
+
+      - name: Generate dark public language statistics
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
+        with:
+          card: top-langs
+          options: username=yuliitezarygml&layout=compact&langs_count=8&hide_border=true&title_color=22D3EE&text_color=94A3B8&bg_color=0A101F&card_width=500
+          path: dist/top-langs-dark.svg
+          token: ${{ github.token }}
+          core_version: '2.1.3'
+          fail_on_error: 'true'
+
+      - name: Generate light public language statistics
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
+        with:
+          card: top-langs
+          options: username=yuliitezarygml&layout=compact&langs_count=8&hide_border=true&title_color=0891B2&text_color=475569&bg_color=F8FAFC&card_width=500
+          path: dist/top-langs-light.svg
+          token: ${{ github.token }}
+          core_version: '2.1.3'
+          fail_on_error: 'true'
+
+      - name: Generate light and dark contribution snakes
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
+        with:
+          github_user_name: yuliitezarygml
+          github_token: ${{ github.token }}
+          outputs: |
+            dist/github-snake.svg?palette=github-light&color_snake=0891B2&color_dots=#ebedf0,#a5b4fc,#818cf8,#6366f1,#0891B2
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=10B981&color_dots=#2d3343,#4b5563,#7C3AED,#A78BFA,#22D3EE
+
+      - name: Verify all six SVGs were generated
+        shell: bash
+        run: |
+          set -euo pipefail
+          for file in stats-dark.svg stats-light.svg top-langs-dark.svg top-langs-light.svg github-snake-dark.svg github-snake.svg; do
+            test -s "dist/$file"
+            test ! -L "dist/$file"
+          done
+
+      - name: Transfer only generated SVGs to the publishing job
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: profile-assets
+          path: |
+            dist/stats-dark.svg
+            dist/stats-light.svg
+            dist/top-langs-dark.svg
+            dist/top-langs-light.svg
+            dist/github-snake-dark.svg
+            dist/github-snake.svg
+          if-no-files-found: error
+          retention-days: 1
+
+  publish:
+    needs: generate
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
     permissions:
       contents: write
-
     steps:
-      - name: Generate light + dark snake SVG
-        uses: Platane/snk/svg-only@v3
+      - name: Check out the repository for publishing
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+          fetch-depth: 1
 
-      - name: Push SVG to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+      - name: Download generated SVGs from this workflow run
+        uses: actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131 # v7 (Node 24)
         with:
-          target_branch: output
-          build_dir: dist
+          name: profile-assets
+          path: ${{ runner.temp }}/generated-profile-assets
+
+      - name: Publish a normal commit to the dedicated assets branch
+        shell: bash
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_ASSETS_SOURCE: ${{ runner.temp }}/generated-profile-assets
+        run: |
+          set -euo pipefail
+          asset_files=(stats-dark.svg stats-light.svg top-langs-dark.svg top-langs-light.svg github-snake-dark.svg github-snake.svg)
+          for file in "${asset_files[@]}"; do
+            test -s "$PROFILE_ASSETS_SOURCE/$file"
+            test ! -L "$PROFILE_ASSETS_SOURCE/$file"
+          done
+
+          # Preserve branch history and every unrelated file if the branch exists.
+          # A missing branch is distinguished from an authentication/network failure.
+          branch_status=0
+          git ls-remote --exit-code --heads origin refs/heads/profile-assets > /dev/null || branch_status=$?
+          if [ "$branch_status" -eq 0 ]; then
+            git fetch --no-tags origin refs/heads/profile-assets:refs/remotes/origin/profile-assets
+            git switch --create profile-assets --track origin/profile-assets
+          elif [ "$branch_status" -eq 2 ]; then
+            # This only clears the disposable runner checkout, not the remote main branch.
+            git switch --orphan profile-assets
+          else
+            exit "$branch_status"
+          fi
+
+          for file in "${asset_files[@]}"; do
+            if [ -L "$file" ] || [ -d "$file" ]; then
+              echo "::error::Refusing to replace a symlink or directory: $file"
+              exit 1
+            fi
+            cp "$PROFILE_ASSETS_SOURCE/$file" "$file"
+          done
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- "${asset_files[@]}"
+          if git diff --cached --quiet; then
+            echo 'Profile assets are already up to date.'
+            exit 0
+          fi
+          git commit -m 'Update public profile assets [skip ci]'
+          # No force push: a competing update fails safely instead of losing history.
+          git push origin HEAD:refs/heads/profile-assets
