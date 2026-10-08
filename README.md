@@ -22,6 +22,21 @@ I'm looking for an internship or entry-level opportunity in software development
 | Web development | HTML and CSS; learning React and Next.js |
 | IT support | Computer maintenance, OS setup, troubleshooting and networking |
 
+## Tech stack
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111827" alt="JavaScript">
+  <img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white" alt="C Sharp">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <br>
+  <img src="https://img.shields.io/badge/React-learning-61DAFB?style=for-the-badge&logo=react&logoColor=111827" alt="React learning">
+  <img src="https://img.shields.io/badge/Next.js-learning-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js learning">
+  <img src="https://img.shields.io/badge/SQL-learning-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL learning">
+</p>
+
 ## GitHub activity
 
 <div align="center">
@@ -49,6 +64,16 @@ Language statistics reflect repository code volume, not my proficiency level.
 | Learning | React, Next.js, SQL and stronger Go/Python foundations |
 | Improving | Troubleshooting, networking and clear technical documentation |
 | Open to | Internships, junior roles and beginner-friendly collaborations |
+
+## Certificates & learning
+
+- **Networking Fundamentals** — Tekwill Academy, 60-hour course, 2023
+- **Start in Business** — Organization for the Development of Entrepreneurship, 58 academic hours, 2023
+- **Hackathon: Digital innovations for the entrepreneurial sector** — Tekwill Bălți, 2023
+- **Tech Incubator Bălți** — market environment and digital innovation programme, 2024
+- **Entrepreneurship training for young people** — CEDA / Austrian Development Cooperation, 2025
+- **3D Printing** — CITT Nortek at Alecu Russo Bălți State University, 24-hour course, 2026
+- **Hackathon: Solutions for combating online disinformation** — Tekwill Bălți / IWPR, 2026
 
 ## Contribution snake
 
