@@ -41,6 +41,15 @@ I'm looking for an internship or entry-level opportunity in software development
 
 Language statistics reflect repository code volume, not my proficiency level.
 
+## What I'm working on
+
+| Focus | Current direction |
+| --- | --- |
+| Building | Small web projects with HTML, CSS and JavaScript |
+| Learning | React, Next.js, SQL and stronger Go/Python foundations |
+| Improving | Troubleshooting, networking and clear technical documentation |
+| Open to | Internships, junior roles and beginner-friendly collaborations |
+
 ## Contribution snake
 
 <picture>
